@@ -8,7 +8,7 @@ php
 ```
 $weather = new Weather(42.3601, -71.0589, 'your_api_key_here', 'imperial', 'en');
 ```
-Call the ** getWeather method ** on the Weather instance to retrieve ** an array of weather data **:
+Call the **getWeather method** on the Weather instance to retrieve** an array of weather data**:
 
 ```
 $data = $weather->getWeather();
