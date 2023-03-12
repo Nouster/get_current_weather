@@ -1,7 +1,7 @@
-#Weather API
+# Weather API
 This PHP class provides a simple interface to retrieve weather data using the OpenWeatherMap API.
 
-##Usage
+## Usage
 Create an instance of the Weather class, passing in the latitude and longitude of the location you want to retrieve weather data for, your API key, the units to use, and the language to return the data in:
 php
 
