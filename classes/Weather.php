@@ -28,11 +28,11 @@ class Weather {
         $data = json_decode($data, true);
         foreach($data['list'] as $day){
             $results = [
-                'temps' => $day['temp']['day'],
+                'temps' => $day['main']['temp'],
                 'description' => $day['weather'][0]['description'],
                 'date' => $day['dt']
             ];
-            var_dump($results);
+            
     }
     return $results;
 }
